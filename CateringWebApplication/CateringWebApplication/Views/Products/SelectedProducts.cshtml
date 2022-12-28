@@ -1,0 +1,20 @@
+﻿@model IEnumerable<CateringWebApplication.Models.Product>
+
+@{
+    ViewData["Title"] = "SelectedProducts";
+}
+
+<h1>Products of Selected Categories</h1>
+
+@using (Html.BeginForm()){
+    <div class="row">
+        <div class="col-md-3">
+            @Html.EditorForModel()
+
+        </div>
+    </div>
+    <input type="submit" value="Submit" class="btn btn-info" />
+}
+<div>
+    <a asp-action="SelectCategory" asp-controller="Categories" class="btn btn-secondary">Back to List</a>
+</div>

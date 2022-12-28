@@ -1,0 +1,19 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@model CateringWebApplication.Models.Sale
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@*@{
+    var totalAmount = ViewBag.TotalAmount;
+}*@
+
+<h1 class="card-header">Monthly Sales Report</h1><br />
+<form method="post">
+    <input type="month" name="saleMonth"/>
+    <br />
+    <input type="submit" class="btn btn-secondary" value="submit" />
+</form>
+<p class="card-title">Total Revenue Generated : @HttpContextAccessor.HttpContext.Session.GetString("_Cost")</p>

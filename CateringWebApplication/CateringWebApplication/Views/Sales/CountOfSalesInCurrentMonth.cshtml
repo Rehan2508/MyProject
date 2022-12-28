@@ -1,0 +1,44 @@
+﻿@model IEnumerable<CateringWebApplication.Models.ProductSold>
+
+@{
+    ViewData["Title"] = "CountOfSalesInCurrentMonth";
+}
+
+<h1>Products Sold In This Month</h1>
+
+<form method="post">
+    <input type="month" name="saleMonth" />
+    <br />
+    <input type="submit" class="btn btn-secondary" value="submit" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.product)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.quantity)
+            </th>
+            @*<th></th>*@
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.product.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.quantity)
+            </td>
+            @*<td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>*@
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<CateringWebApplication.Models.Sale>
+
+@{
+    ViewData["Title"] = "CustomerListInCurrentMonth";
+}
+
+<h1>Customers For The Current Month</h1>
+
+<h1 class="card-header">Monthly Sales Report</h1>
+<br />
+
+<form method="post">
+    <input type="month" name="saleMonth" />
+    <br />
+    <input type="submit" class="btn btn-secondary" value="submit" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.userId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.userId)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

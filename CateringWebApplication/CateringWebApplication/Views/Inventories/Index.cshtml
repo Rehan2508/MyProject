@@ -1,0 +1,48 @@
+﻿@model IEnumerable<CateringWebApplication.Models.Inventory>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Inventory</h1>
+
+<p>
+    <a asp-action="Create" asp-controller="Products" class="btn btn-info">Add New Products</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.category.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.product.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.quantity)
+            </th>            
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.category.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.product.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.quantity)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id" class="btn btn-secondary">Restock</a>
+                @*<a asp-action="Details" asp-route-id="@item.id" class="btn btn-primary">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-danger">Delete</a>*@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

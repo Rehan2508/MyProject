@@ -1,0 +1,8 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+
+<li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Categories" asp-action="SelectCategory">Select Category</a>
+</li>
+<li><a href="~/Carts/Index"><img src="~/Images/Carts.jpg" class="rounded-circle" width="50" /><span style="color:red">@HttpContextAccessor.HttpContext.Session.GetInt32("_cartCount")</span></a></li>

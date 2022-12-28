@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CateringWebApplication
+build_property.RootNamespace = CateringWebApplication
+build_property.ProjectDir = C:\Users\Rehan.Dilkash\Desktop\MyProject\CateringWebApplication\CateringWebApplication\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Rehan.Dilkash\Desktop\MyProject\CateringWebApplication\CateringWebApplication
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Carts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Carts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Carts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Categories/SelectCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xTZWxlY3RDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Inventories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3JpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Inventories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3JpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Products/SelectedProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2VsZWN0ZWRQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Sales/CountOfSalesInCurrentMonth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNcQ291bnRPZlNhbGVzSW5DdXJyZW50TW9udGguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Sales/CustomerListInCurrentMonth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNcQ3VzdG9tZXJMaXN0SW5DdXJyZW50TW9udGguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Sales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Sales/SaleAmountInCurrentMonth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZXNcU2FsZUFtb3VudEluQ3VycmVudE1vbnRoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Shared/EditorTemplates/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVkaXRvclRlbXBsYXRlc1xQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Shared/_AdminView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pblZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Shared/_CustomerView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DdXN0b21lclZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Rehan.Dilkash/Desktop/MyProject/CateringWebApplication/CateringWebApplication/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-cnfk2thnzs

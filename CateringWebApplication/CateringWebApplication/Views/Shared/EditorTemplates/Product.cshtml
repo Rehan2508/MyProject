@@ -1,0 +1,24 @@
+﻿@model CateringWebApplication.Models.Product
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Select</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+            @Html.HiddenFor(e => e.id)
+            @Html.HiddenFor(e => e.name)
+            @Html.HiddenFor(e => e.price)
+            @Html.HiddenFor(e => e.discount)
+            @Html.DisplayFor(e => e.name)
+        </td>
+        <td>@Html.DisplayFor(e => e.price)</td>
+        <td>@Html.CheckBoxFor(e=>e.check)</td>
+    </tr>
+    </tbody>
+</table>

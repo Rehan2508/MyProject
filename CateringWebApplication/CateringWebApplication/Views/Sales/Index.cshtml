@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Products Sold In This Month</h1>
+
+<form method="post">
+    <input type="month" name="saleMonth" />
+    <br />
+    @*<input type="submit" class="btn btn-secondary" value="submit" />*@
+    <a asp-action="SaleAmountInCurrentMonth" class="btn btn-outline-secondary">Monthly Revenue</a>
+    <a asp-action="CustomerListInCurrentMonth" class="btn btn-outline-secondary">Monthly Products Sold</a>
+    <a asp-action="CountOfSalesInCurrentMonth" class="btn btn-outline-secondary">Customers List</a>
+</form>

@@ -1,0 +1,116 @@
+﻿@model IEnumerable<CateringWebApplication.Models.Cart>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>My Cart</h1>
+
+
+
+<script src="~/js/jquery/jquery.min.js"></script>    
+<script>
+    $(document).ready(function () {
+        var url = '@Url.Action("CalculateTotal")';
+
+        $("#cal").mouseout(function () {
+            //var cartID = $(this).val();
+            $.getJSON(url, function (response) {
+                    $("#cost").text(response);
+                })
+            })
+        }) 
+</script>
+
+
+<script src="~/js/jquery/jquery.min.js"></script>    
+<script>
+    $(document).ready(function () {
+        var url = '@Url.Action("GetUsers")';
+
+        $("#userID").click(function () {
+            //var cartID = $(this).val();  
+            $.getJSON(url, function (response) {  
+                $("#user").text(response)
+            })
+        })
+    })
+</script>
+
+@{
+    var totalCost = ViewBag.TotalCost;
+}
+
+<div class="justify-content-end">
+    <p class="badge">
+        <a asp-action="SelectCategory" asp-controller="Categories" class="btn btn-secondary">Go Back to Select Category</a>
+    </p>
+
+    <p class="badge">
+        <a asp-action="EmptyCart" class="btn btn-danger">Empty Cart</a>
+    </p>
+
+    <p class="badge">
+        <a asp-action="CheckOut" class="btn btn-info">Check Out</a>
+    </p>
+
+    <div>
+        <a id="userID" class="btn btn-secondary">Get User</a>
+        <p id="user"></p>
+    </div>
+    
+</div>
+
+@*<p id="cost"></p>*@
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.product.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.quantity)
+            </th>
+            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.totalAmount)
+            </th>
+            <th>Action</th>
+        </tr>
+        
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.product.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.quantity)
+            </td>
+            <td>
+                <a id="add" asp-action="Add" asp-route-id="@item.id" class="btn btn-outline-dark">+</a>
+                <a id="del" asp-action="Decrease" asp-route-id="@item.id" class="btn btn-outline-dark">-</a> 
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.totalAmount)
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.id" class="btn btn-danger">Remove from Cart</a>
+            </td>
+            
+            
+        </tr>
+}
+        
+    </tbody>
+</table>
+
+<div class="card">Total Cost : @totalCost</div>
+<div>
+    <a id="cal" class="btn btn-outline-dark">Total Cost</a>
+    <p id="cost"></p>
+</div>
